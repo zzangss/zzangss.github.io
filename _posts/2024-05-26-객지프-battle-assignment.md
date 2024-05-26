@@ -39,7 +39,7 @@ typora-root-url: ../
 
 ### 피카츄
 
-<img src="https://i.namu.wiki/i/xwQbg0NjlN4bkskppVxpMIMruQaKVVU0X2J5-TFC3i6J5nA803zigFvfCXpoy34hQrFi80YIDJfWMu44XDolYZuEzKmyDXoZLe8QP57r2c31AA2hx6kIBwdDT0aKYhywyZzv2IO3eiZXAnYOKRyWRg.webp" alt="025 피카츄" style="zoom:50%;" />
+<img src="https://i.namu.wiki/i/xwQbg0NjlN4bkskppVxpMIMruQaKVVU0X2J5-TFC3i6J5nA803zigFvfCXpoy34hQrFi80YIDJfWMu44XDolYZuEzKmyDXoZLe8QP57r2c31AA2hx6kIBwdDT0aKYhywyZzv2IO3eiZXAnYOKRyWRg.webp" alt="025 피카츄" style="zoom: 33%;" />
 
 1. 전기 속성 몬스터. 땅 속성 몬스터에게 약하다.
    1. 공격력이 30% 감소
@@ -49,7 +49,7 @@ typora-root-url: ../
 
 ### 이브이
 
-![133 이브이](https://i.namu.wiki/i/cbnKZOJUy8cvdgL1eGcEqxhsuiwC_OBNk-eaIAQnrtCVnaaHBnbBQfvCz7vrg-eI4pI61A61wzmr6a7lSVoTjOKmNfABMjTS_Nnnkz4SkI6B2Zcfw8WjjKU-4zYC9tX8Drxb5fm1XsIZDLvXMMzNgA.webp)
+<img src="https://i.namu.wiki/i/cbnKZOJUy8cvdgL1eGcEqxhsuiwC_OBNk-eaIAQnrtCVnaaHBnbBQfvCz7vrg-eI4pI61A61wzmr6a7lSVoTjOKmNfABMjTS_Nnnkz4SkI6B2Zcfw8WjjKU-4zYC9tX8Drxb5fm1XsIZDLvXMMzNgA.webp" alt="133 이브이" style="zoom: 67%;" />
 
 1. 일반 속성 몬스터. 불 속성 몬스터에 약하다.
 2. hp : 120 / power : 30 / mp : 30
@@ -58,7 +58,7 @@ typora-root-url: ../
 
 ### 수댕이 
 
-![501 수댕이](https://i.namu.wiki/i/IQSbPuxLK3n5k0aKJtbfW-VAvxXboC7Mmuqil8KkrH1NxdZsFJVRSyYOEQsmuH4yiqLfRxMxANPubmhOsOmE9pB0OZlrNNW0jtnsZAZTW-VhSmX12JzeQzpofCMseaBmJt7FGMh9HEq4rMotyYT4eA.webp)
+<img src="https://i.namu.wiki/i/IQSbPuxLK3n5k0aKJtbfW-VAvxXboC7Mmuqil8KkrH1NxdZsFJVRSyYOEQsmuH4yiqLfRxMxANPubmhOsOmE9pB0OZlrNNW0jtnsZAZTW-VhSmX12JzeQzpofCMseaBmJt7FGMh9HEq4rMotyYT4eA.webp" alt="501 수댕이" style="zoom:67%;" />
 
 1. 물 속성 몬스터. 전기 속성 몬스터에게 약하다.
 2. hp : 120 / power : 30 / mp : 30
@@ -67,7 +67,7 @@ typora-root-url: ../
 
 ### 디그다
 
-![050 디그다](https://i.namu.wiki/i/8BMmWEtFWGt683FyHOMye0nljo5d1OOftbcTZuZb4NvaoI6dW3nRp5fj_h5zqrH0T2EUwGIHl4XOsOwLrXA-YlUatXPs2hDOLtnZfgbOIg1VkmKhm4OpTBj8xxErYmIrhP8SaorP8l010AfvU1h_nA.webp)
+<img src="https://i.namu.wiki/i/8BMmWEtFWGt683FyHOMye0nljo5d1OOftbcTZuZb4NvaoI6dW3nRp5fj_h5zqrH0T2EUwGIHl4XOsOwLrXA-YlUatXPs2hDOLtnZfgbOIg1VkmKhm4OpTBj8xxErYmIrhP8SaorP8l010AfvU1h_nA.webp" alt="050 디그다" style="zoom:67%;" />
 
 1. 땅 속성 몬스터. 일반 속성 몬스터에게 약하다.
 
@@ -75,7 +75,7 @@ typora-root-url: ../
 
 ### 파이리
 
-![004 파이리](https://i.namu.wiki/i/qHxI_43t1FLdca3vUWC3IdgysV8aHECtT25imrS-fFkR5lKH8HMpXbPi1PNOztO74BRQVZuY99lwKpJt-NWrmSMM4tGHairaXfe4ve5aWG2Wl7IiN0pEmjleeF0B_VRucIyk1HSOBeoqycCz64O9AA.webp)
+<img src="https://i.namu.wiki/i/qHxI_43t1FLdca3vUWC3IdgysV8aHECtT25imrS-fFkR5lKH8HMpXbPi1PNOztO74BRQVZuY99lwKpJt-NWrmSMM4tGHairaXfe4ve5aWG2Wl7IiN0pEmjleeF0B_VRucIyk1HSOBeoqycCz64O9AA.webp" alt="004 파이리" style="zoom:67%;" />
 
 1. 불 속성 몬스터. 물 속성 몬스터에게 약하다.
 2. hp : 100 / power : 40 / mp : 30
