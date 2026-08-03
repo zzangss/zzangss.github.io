@@ -1,0 +1,62 @@
+---
+import { getCollection, render, type CollectionEntry } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+interface Props {
+  post: CollectionEntry<"blog">;
+}
+
+export async function getStaticPaths() {
+  const posts = await getCollection("blog", ({ data }) => !data.draft);
+  return posts.map((post) => ({
+    params: { slug: post.id },
+    props: { post }
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+const date = new Intl.DateTimeFormat("ko-KR", {
+  year: "numeric",
+  month: "long",
+  day: "numeric"
+}).format(post.data.pubDate);
+---
+
+<BaseLayout
+  title={post.data.title}
+  description={post.data.description}
+  type="article"
+  publishedTime={post.data.pubDate}
+>
+  <article class="article shell">
+    <header class="article__header">
+      <h1>{post.data.title}</h1>
+      <div class="article__meta">
+        <span>zzangss</span>
+        <span aria-hidden="true">|</span>
+        <time datetime={post.data.pubDate.toISOString()}>{date}</time>
+        {post.data.updatedDate && (
+          <span>
+            수정 {new Intl.DateTimeFormat("ko-KR").format(post.data.updatedDate)}
+          </span>
+        )}
+      </div>
+      <div class="article__tags">
+        {post.data.tags.map((tag) => (
+          <a href={`/tags/${encodeURIComponent(tag)}/`}>#{tag}</a>
+        ))}
+      </div>
+    </header>
+
+    <div class="article__layout">
+      <div class="prose">
+        <Content />
+      </div>
+    </div>
+
+    <footer class="article__footer">
+      <a href="/posts/">목록으로</a>
+    </footer>
+  </article>
+</BaseLayout>

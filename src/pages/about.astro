@@ -1,0 +1,20 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { SITE } from "../site";
+---
+
+<BaseLayout title="소개" description="Zzangss와 이 기술 블로그에 대한 소개">
+  <section class="about shell">
+    <div class="page-title">
+      <h1>소개</h1>
+    </div>
+    <div class="about__body">
+      <strong>안녕하세요, Zzangss입니다.</strong>
+      <p>공부하거나 개발하면서 알게 된 내용을 기록하고 있습니다.</p>
+      <div class="about__links">
+        <a href={SITE.github} target="_blank" rel="noreferrer">GitHub</a>
+        <a href={SITE.tistory} target="_blank" rel="noreferrer">이전 블로그</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
