@@ -8,13 +8,15 @@ interface Props {
   description?: string;
   type?: "website" | "article";
   publishedTime?: Date;
+  noindex?: boolean;
 }
 
 const {
   title,
   description = SITE.description,
   type = "website",
-  publishedTime
+  publishedTime,
+  noindex = false
 } = Astro.props;
 
 const pageTitle = title ? `${title} · ${SITE.title}` : SITE.title;
@@ -40,6 +42,7 @@ const sidebarTags = [...tagCounts.entries()]
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex, nofollow, noarchive" />}
     <meta name="theme-color" content="#ffffff" />
     <link rel="canonical" href={canonicalURL} />
     <link rel="alternate" type="application/rss+xml" title={SITE.title} href="/rss.xml" />
