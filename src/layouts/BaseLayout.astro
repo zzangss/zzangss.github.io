@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import "../styles/global.css";
+import { protectedPosts } from "../protected-posts";
 import { SITE } from "../site";
 
 interface Props {
@@ -92,7 +93,7 @@ const sidebarTags = [...tagCounts.entries()]
         </header>
 
         <nav class="site-sidebar__nav" aria-label="주요 메뉴">
-          <a href="/"><span>전체 글</span><small>{posts.length}</small></a>
+          <a href="/"><span>전체 글</span><small>{posts.length + protectedPosts.length}</small></a>
           <a href="/search/"><span>검색</span></a>
           <a href="/tags/"><span>태그</span><small>{tagCounts.size}</small></a>
           <a href="/about/"><span>소개</span></a>

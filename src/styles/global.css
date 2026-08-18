@@ -383,6 +383,16 @@ main {
   content: "#";
 }
 
+.post-card__meta .post-card__protected {
+  color: #656a75;
+  font-weight: 650;
+}
+
+.post-card__meta .post-card__protected::before {
+  margin-right: 4px;
+  content: "🔒";
+}
+
 .post-card h3,
 .search-result h2 {
   margin: 0 0 12px;

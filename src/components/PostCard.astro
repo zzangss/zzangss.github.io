@@ -1,11 +1,13 @@
 ---
 import type { CollectionEntry } from "astro:content";
+import type { ProtectedPost } from "../protected-posts";
 
 interface Props {
-  post: CollectionEntry<"blog">;
+  post: CollectionEntry<"blog"> | ProtectedPost;
 }
 
 const { post } = Astro.props;
+const isProtected = "protected" in post && post.protected;
 const date = new Intl.DateTimeFormat("ko-KR", {
   year: "numeric",
   month: "short",
@@ -16,6 +18,7 @@ const date = new Intl.DateTimeFormat("ko-KR", {
 <article class="post-card">
   <div class="post-card__meta">
     <time datetime={post.data.pubDate.toISOString()}>{date}</time>
+    {isProtected && <span class="post-card__protected">비밀글</span>}
     {post.data.tags[0] && <span>{post.data.tags[0]}</span>}
   </div>
   <h3>
